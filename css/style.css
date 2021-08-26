@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+body{
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+header{
+    width: 100%;
+}
+
+.container{
+    width: 980px;
+    margin: auto;
+}
+
+.container-left{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo{
+    margin-right: 5px;
+    float: left;
+}
+
+.logo img{
+    display: block;
+}
+
+.menu{
+    float:left;
+}
+.menu-item{
+    float: left;
+    paddinng: 10px 20px;
+    line-height: 1;
+}
+
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear:both;
+}
